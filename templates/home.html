@@ -1,0 +1,22 @@
+{% extends 'index.html' %}
+
+{% block body %}
+  <form action="/result" method="POST">
+    <div class="prediction-column1">
+      <input type="number" step="0.000001" placeholder="Pregnancies" name="Pregnancies"><br>
+      <input type="number" step="0.000001" placeholder="Glucose" name="Glucose"><br>
+      <input type="number" step="0.000001" placeholder="Blood Pressure" name="Blood Pressure"><br>
+      <input type="number" step="0.000001" placeholder="Skin Thickness" name="Skin Thickness">
+    </div>
+    <div class="prediction-column2">
+      <input type="number" step="0.000001" placeholder="Insulin" name="Insulin"><br>
+      <input type="number" step="0.000001" placeholder="BMI" name="BMI"><br>
+      <input type="number" step="0.000001" placeholder="Diabetes Pedigree Function" name="Diabetes Pedigree Function"><br>
+      <input type="number" step="0.000001" placeholder="Age" name="Age"><br>
+    </div>
+    <div class="prediction-column3">
+      <button type="submit" id="Predict">Predict</button>
+    </div>
+  </form>
+</div>
+{% endblock %}
