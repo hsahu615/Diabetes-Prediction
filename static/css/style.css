@@ -11,7 +11,6 @@
   list-style: none;
 }
 .background {
-  background-image: url({{ url_for('static', filename = 'images/dark.jpg') }});
   background-size: cover;
   position: fixed;
   height: 100vh;
