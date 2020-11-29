@@ -1,11 +1,11 @@
 <html>
 <head>
   <title>Diabetes Prediction</title>
-  <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/style.css') }}">
+  <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/main.css') }}">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
 </head>
 <body>
-<div class="background" style="background-image: url({{ url_for('static', filename='images/dark.jpg') }});  height: 100%; background-position: center;background-repeat: no-repeat;background-size: cover;"></div>
+<div class="background" style="background-image: url({{ url_for('static', filename='images/dark.jpg') }}); position: fixed;background-size: cover;"></div>
 <nav class="topnavbar">
   <div class="logo"><img class="logo1" src="{{ url_for('static', filename='images/logo1.png') }}"></div>
   <label class="Title">Diabetes Prediction</label>
